@@ -1,0 +1,162 @@
+{
+	"pageLayout": {
+		"updateable": true,
+		"isDefault": true,
+		"name": "quote_layout",
+		"label": "quote_layout",
+		"pageLayoutSections": [
+			{
+				"sequence": 1,
+				"name": "quote_information",
+				"label": "Quote Information",
+				"rows": [
+					{
+						"columns": [
+							{
+								"updateable": false,
+								"filterable": true,
+								"apiName": "FormattedId",
+								"precision": 0,
+								"custom": false,
+								"length": 100,
+								"scale": 0,
+								"description": "This is the formatted ID (including the base and the suffix) of the quote.",
+								"nameField": false,
+								"label": "Quote ID",
+								"type": "string",
+								"nillable": false,
+								"restrictedPicklist": false,
+								"createable": false,
+								"name": "FormattedId",
+								"columnIndex": 0,
+								"digits": 0,
+								"isSpan": false
+							}
+						]
+					},
+					{
+						"columns": [
+							{
+								"updateable": true,
+								"filterable": true,
+								"apiName": "Name",
+								"precision": 0,
+								"custom": false,
+								"length": 255,
+								"scale": 0,
+								"description": "This is the name of this quote",
+								"nameField": true,
+								"label": "Quote Name",
+								"type": "string",
+								"nillable": false,
+								"restrictedPicklist": false,
+								"createable": true,
+								"name": "Name",
+								"columnIndex": 0,
+								"digits": 0,
+								"isSpan": false
+							}
+						]
+					},
+					{
+						"columns": [
+							{
+								"updateable": false,
+								"filterable": false,
+								"apiName": "IsPrimary",
+								"precision": 0,
+								"custom": false,
+								"length": 0,
+								"scale": 0,
+								"description": "This field tells if this quote is the primary quote for the opportunity",
+								"nameField": false,
+								"label": "Primary",
+								"type": "boolean",
+								"nillable": true,
+								"restrictedPicklist": false,
+								"createable": false,
+								"name": "IsPrimary",
+								"columnIndex": 0,
+								"digits": 0,
+								"isSpan": false
+							}
+						]
+					},
+					{
+						"columns": [
+							{
+								"updateable": true,
+								"filterable": true,
+								"apiName": "ExpirationDate",
+								"helpText": "Quote Expiration Date is the date through which this quote is valid. It is defaulted to what the System Administrator set up in the OnDemand Setup. You can change it by either entering the date in the input area or clicking the calendar icon next to it to choose the desired date.",
+								"precision": 0,
+								"custom": false,
+								"length": 0,
+								"scale": 0,
+								"description": "This is the date through which this quote is valid.",
+								"nameField": false,
+								"label": "Expiration Date",
+								"type": "date",
+								"nillable": false,
+								"restrictedPicklist": false,
+								"createable": true,
+								"name": "ExpirationDate",
+								"columnIndex": 0,
+								"digits": 0,
+								"isSpan": false
+							}
+						]
+					},
+					{
+						"columns": [
+							{
+								"updateable": true,
+								"filterable": true,
+								"apiName": "Description",
+								"precision": 0,
+								"custom": false,
+								"length": 250,
+								"scale": 0,
+								"description": "This is the description of this quote",
+								"nameField": false,
+								"label": "Description",
+								"type": "string",
+								"nillable": true,
+								"restrictedPicklist": false,
+								"createable": true,
+								"name": "Description",
+								"columnIndex": 0,
+								"digits": 0,
+								"isSpan": false
+							}
+						]
+					},
+					{
+						"columns": [
+							{
+								"updateable": false,
+								"filterable": true,
+								"apiName": "TotalAmount",
+								"precision": 18,
+								"custom": false,
+								"length": 0,
+								"scale": 2,
+								"description": "The total amount on this quote including the selling price for all included products, charges, fees, and less discounts.",
+								"nameField": false,
+								"label": "Total Amount",
+								"type": "currency",
+								"nillable": false,
+								"restrictedPicklist": false,
+								"createable": false,
+								"name": "TotalAmount",
+								"columnIndex": 0,
+								"digits": 0,
+								"isSpan": false
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"ClonedFromId": null,
+	"LastModifiedDate": "2017-05-23T19:30:40Z",
+	"AccountId": "0ca000012a6ijiva",
+	"Description": "Opportunity for Salient Solutions 2017",
+	"LocaleSidKey": "en_US",
+	"Probability_Percent__c": 30,
+	"LanguageLocaleKey": "en_US",
+	"ExternalId": null,
+	"PrimaryQuoteId": "03a000012a6ijiwf",
+	"IsClosed": false,
+	"ArchivedDate": null,
+	"CrmExportStatus": "NotExported",
+	"CurrencyIsoCode": "USD",
+	"Name": "Opportunity for Salient Solutions",
+	"IsArchived": false,
+	"CreatedById": "09a000000002z6qz",
+	"OwnerId": "09a000000002z6qz",
+	"CreatedDate": "2017-05-23T18:15:16Z",
+	"fpRules": {
+		"showMoreInfo": false,
+		"acl": {
+			"canEdit": true,
+			"canDelete": true
+		},
+		"wf": {
+			"canAddQuote": true
+		}
+	},
+	"Id": "08a000012a6ijiwb",
+	"LastModifiedById": "09a000000002z6qz"
+}

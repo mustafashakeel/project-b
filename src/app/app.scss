@@ -1,0 +1,140 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+.card-header{
+	background-color: #FFCD2F;
+	padding: 12px 12px 6px 12px;
+}
+.card-content{
+	background-color: #EEEEEF;
+
+	.icon{
+		color: #FCCD2F;
+	}
+}
+
+.toolbar-background{
+	border-color: #333;
+    background: #ffffff;
+}
+
+.toolbar-title{
+    font-size: 2.2em;
+    letter-spacing: 0.08em;
+    color: #FECD2F;
+}
+
+.bar-buttons{
+	font-size: 2.2em;
+}
+.bar-buttons{
+	margin-right: 16px;
+	margin-top: 4px;
+	.icon{
+		width: 40px;
+		height: 40px;
+    	text-align: center;
+    	position: relative;
+
+    	span{
+			position: absolute;
+		    left: 16px;
+		    top: 12px;
+		    font-weight: bold;
+		    font-family: Helvetica;
+		    font-size: 0.4em;
+			color: #000;
+
+    	}
+	}
+	.icon[aria-label=notifications]{
+		color: #FFCD2F;
+	}
+	.icon[aria-label=folder]{
+		color: #FFCD2F;
+	}
+}
+
+.tabbar{
+	background-color: #505052 !important;
+	a, .icon{
+		color: #fff !important;
+	}
+	a[aria-selected=true]{
+		color: #FECD2F !important;
+		.icon{
+			color: #FECD2F !important;
+		}
+	}
+
+}
+
+.item{
+	background-color: transparent;
+}
+
+.bgcolor{
+	background-color: #FFCD2F;
+}
+
+.h2{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.h3{
+	font-size: 0.8em;
+}
+
+.underline{
+	width: 100%;
+	height: 2px;
+	background-color: #59595B;
+	margin-top: 4px;
+}
+
+.expand-arrow{
+	float: right;
+	font-size: 1.3em;
+}
+
+.inner-header{
+	width: 100%;
+	margin: 0px;
+	padding: 4px 8px;
+	background-color: #FFCD2F;
+
+	.h2{
+		line-height: 32px;
+	}
+
+	.nav{
+		button{
+			float: right;
+			line-height: 32px;
+			background: none;
+		}
+		.icon{
+			float: right;
+			font-size: 22px;
+			line-height: 24px;
+			margin-right: 8px;
+		}
+		.icon[aria-label=search]{
+			font-size: 24px;
+		}
+	}
+}

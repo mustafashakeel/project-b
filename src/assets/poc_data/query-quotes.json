@@ -1,0 +1,74 @@
+{
+	"size": 2,
+	"records": [
+		{
+			"IsPrimary": true,
+			"fpRules": {
+				"acl": {
+					"canEdit": true,
+					"canDelete": true
+				},
+				"updateAvailable": false,
+				"isDependentDataOutOfSync": false,
+				"wf": {
+					"canExport": true,
+					"canAddQuote": true,
+					"canAddProduct": true,
+					"fieldData": [
+						{
+							"isLink": false,
+							"label": "No Approval Required"
+						}
+					],
+					"showMoreInfo": false,
+					"canEdit": true,
+					"canMakePrimary": true,
+					"canCopy": true,
+					"canDelete": true,
+					"canAddProposal": true,
+					"canPreview": true
+				}
+			},
+			"Id": "03a000012a6ijiwf",
+			"TotalAmount": 7245.96,
+			"FormattedId": "194403-1",
+			"CurrencyIsoCode": "USD",
+			"Name": "Quote for Salient Solutions"
+		},
+		{
+			"IsPrimary": false,
+			"fpRules": {
+				"acl": {
+					"canEdit": true,
+					"canDelete": true
+				},
+				"updateAvailable": false,
+				"isDependentDataOutOfSync": false,
+				"wf": {
+					"canExport": true,
+					"canAddQuote": true,
+					"canAddProduct": true,
+					"fieldData": [
+						{
+							"isLink": false,
+							"label": "No Approval Required"
+						}
+					],
+					"showMoreInfo": false,
+					"canEdit": true,
+					"canMakePrimary": true,
+					"canCopy": true,
+					"canDelete": true,
+					"canAddProposal": true,
+					"canPreview": true
+				}
+			},
+			"Id": "03a000012a6ijjbk",
+			"TotalAmount": 1548.99,
+			"FormattedId": "194407-1",
+			"CurrencyIsoCode": "USD",
+			"Name": "Quote for Salient Solutions (2)"
+		}
+	],
+	"done": true
+}

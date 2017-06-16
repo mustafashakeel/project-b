@@ -1,0 +1,77 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title><ion-icon name="back"></ion-icon></ion-title>
+    <ion-buttons end>
+      <app-statusbar></app-statusbar>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content *ngIf="quoteSummary" class="quote-details">
+	<div class="ion-summary-title">QUOTE SUMMARY</div>
+
+    <!-- Breadcrumbs: “AccountName”,“Opportunit	Name”,“QuoteName” -->
+    <div class="breadcrumbs">
+       {{quoteSummary.accountName}}
+       <ion-icon name="md-arrow-dropright"></ion-icon>
+       <a (click)="goToOpportunity()">{{quoteSummary.opportunityName}}</a>
+       <ion-icon name="md-arrow-dropright"></ion-icon>
+       {{quoteSummary.quoteName}}
+    </div>
+
+    <div *ngFor="let label of visibleFieldsLabels">
+      <!-- TITLE FOR LABEL -->
+      <ion-item class="ion-summary-item-title">{{label.name}}</ion-item>
+
+      <!-- IF READ ONLY -->
+      <ion-item *ngIf="!isEditable(label)" class="ion-summary-item-desc">
+        <span>{{quoteSummary[label.asCamelCase]}}</span>
+      </ion-item>
+
+      <!-- IF TEXT FIELD -->
+      <ion-item *ngIf="isEditable(label) && isTextField(label)" class="ion-summary-item-desc">
+          <ion-input [(ngModel)]="editableFields[label.asCamelCase].value" placeholder={{quoteSummary[label.asCamelCase]}}>
+         </ion-input>
+      </ion-item> 
+      
+      <!-- IF DROP DOWN -->
+      <ion-item *ngIf="isEditable(label) && isSelectField(label)" class="ion-summary-item-desc">
+        <ion-select [(ngModel)]="editableFields[label.asCamelCase].value">
+          <ion-option *ngFor="let option of editableFields[label.asCamelCase].options" (click)="markSelection(label,option)">
+            {{option}}
+          </ion-option>
+        </ion-select>
+      </ion-item>
+
+    </div>
+   
+</ion-content>
+
+<!-- TOOL BAR FOR BUTTONS -->
+<ion-footer>
+  <ion-toolbar>
+   <ion-buttons>
+
+     <button (click)="loadData()"ion-button small>
+       <ion-icon name="ios-close"></ion-icon>
+       <span>Reset</span>
+     </button>
+
+     <button ion-button small (click)="goToProducts()">
+       <ion-icon name="ios-cube-outline"></ion-icon>
+       <span>Products</span>
+     </button>
+
+     <button ion-button small (click)="reset()">
+       <ion-icon name="ios-add-circle"></ion-icon>
+       <span>Add Product</span>
+     </button>
+
+     <button ion-button small (click)="saveChanges()">
+       <ion-icon name="md-checkmark"></ion-icon>
+        <span>Save</span>
+     </button>
+
+   </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

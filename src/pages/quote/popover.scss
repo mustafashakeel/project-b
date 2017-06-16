@@ -1,0 +1,28 @@
+.popover-content{
+	width: 280px !important;
+}
+.more-actions{
+
+	margin: 0px;
+
+	.item{
+		padding: 0px;
+
+		.icon{
+			position: relative;
+			margin-left: 16px;
+			margin-right: 8px;
+			font-size: 24px;
+			color: #FDCB2F;
+			line-height: 22px;
+			top: 4px;
+		}
+
+		.label{
+			position: relative;
+			font-size: 15px !important;
+			top: -2px;
+		}
+	}
+
+}

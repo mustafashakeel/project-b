@@ -1,0 +1,66 @@
+{
+	"LastModifiedDate": "2017-05-23T19:30:40Z",
+	"Description": "Quote for Salient Solutions May 2017",
+	"TotalChargesCost": 0,
+	"TotalDiscountsAmount": 0,
+	"FormattedIdBase": "194403",
+	"Name": "Quote for Salient Solutions",
+	"TotalCost": 5194.4,
+	"TotalFeesCost": 0,
+	"CreatedById": "09a000000002z6qz",
+	"OwnerId": "09a000000002z6qz",
+	"OpportunityId": "08a000012a6ijiwb",
+	"TotalProductsCost": 5194.4,
+	"IsProductUpdateAllowed": false,
+	"fpRules": {
+		"acl": {
+			"canEdit": true,
+			"canDelete": true
+		},
+		"updateAvailable": false,
+		"isDependentDataOutOfSync": false,
+		"wf": {
+			"canExport": true,
+			"canAddQuote": true,
+			"canAddProduct": true,
+			"fieldData": [
+				{
+					"isLink": false,
+					"label": "No Approval Required"
+				}
+			],
+			"showMoreInfo": false,
+			"canEdit": true,
+			"canMakePrimary": true,
+			"canCopy": true,
+			"canDelete": true,
+			"canAddProposal": true,
+			"canPreview": true
+		}
+	},
+	"ProductsAmount": 7245.96,
+	"IsDependentDataOutOfSync": false,
+	"ProductsCount": 2,
+	"TotalProfit": 2051.56,
+	"LastExportedDate": null,
+	"ClonedFromId": null,
+	"TotalFeesAmount": 0,
+	"ExternalId": null,
+	"ChargesAmount": 0,
+	"TotalAmount": 7245.96,
+	"CurrencyIsoCode": "USD",
+	"FormattedId": "194403-1",
+	"DiscountAmount": 0,
+	"WorkflowStatus": "None",
+	"FormattedIdSuffix": "-1",
+	"FeesAmount": 0,
+	"TotalDiscountsCost": 0,
+	"ExpirationDate": "2017-10-31T00:00:00Z",
+	"Note": null,
+	"CreatedDate": "2017-05-23T18:19:11Z",
+	"IsPrimary": true,
+	"Id": "03a000012a6ijiwf",
+	"TotalMargin": 28.3132,
+	"TotalChargesAmount": 0,
+	"LastModifiedById": "09a000000002z6qz"
+}

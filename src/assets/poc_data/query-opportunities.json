@@ -1,0 +1,157 @@
+{
+	"size": 7,
+	"records": [
+		{
+			"AccountId": null,
+			"PrimaryQuoteId": {
+				"Id": "03a000012a6ijji0",
+				"Name": "Quote for Tatum"
+			},
+			"fpRules": {
+				"showMoreInfo": false,
+				"acl": {
+					"canEdit": true,
+					"canDelete": true
+				},
+				"wf": {
+					"canAddQuote": true
+				}
+			},
+			"Id": "08a000012a6ijjhw",
+			"CurrencyIsoCode": "USD",
+			"Name": "Opportunity for Tatum"
+		},
+		{
+			"AccountId": {
+				"Id": "0ca000012a6ijivm",
+				"Name": "Stanton and Sons"
+			},
+			"PrimaryQuoteId": {
+				"Id": "03a000012a6ijjeu",
+				"Name": "Quote for Stanton"
+			},
+			"fpRules": {
+				"showMoreInfo": false,
+				"acl": {
+					"canEdit": true,
+					"canDelete": true
+				},
+				"wf": {
+					"canAddQuote": true
+				}
+			},
+			"Id": "08a000012a6ijjeq",
+			"CurrencyIsoCode": "USD",
+			"Name": "Opportunity for Stanton"
+		},
+		{
+			"AccountId": {
+				"Id": "0ca000012a6ijiva",
+				"Name": "Salient Solutions"
+			},
+			"PrimaryQuoteId": {
+				"Id": "03a000012a6ijiwf",
+				"Name": "Quote for Salient Solutions"
+			},
+			"fpRules": {
+				"showMoreInfo": false,
+				"acl": {
+					"canEdit": true,
+					"canDelete": true
+				},
+				"wf": {
+					"canAddQuote": true
+				}
+			},
+			"Id": "08a000012a6ijiwb",
+			"CurrencyIsoCode": "USD",
+			"Name": "Opportunity for Salient Solutions"
+		},
+		{
+			"AccountId": {
+				"Id": "0ca000012a6ijive",
+				"Name": "Torphy Group"
+			},
+			"PrimaryQuoteId": {
+				"Id": "03a000012a6ijj8i",
+				"Name": "Quote for Torphy"
+			},
+			"fpRules": {
+				"showMoreInfo": false,
+				"acl": {
+					"canEdit": true,
+					"canDelete": true
+				},
+				"wf": {
+					"canAddQuote": true
+				}
+			},
+			"Id": "08a000012a6ijj8e",
+			"CurrencyIsoCode": "USD",
+			"Name": "Opportunity for Torphy"
+		},
+		{
+			"AccountId": {
+				"Id": "0ca000012a6ijivq",
+				"Name": "Renner LLC"
+			},
+			"PrimaryQuoteId": null,
+			"fpRules": {
+				"acl": {
+					"canEdit": true,
+					"canDelete": true
+				},
+				"wf": {
+					"canAddQuote": true
+				}
+			},
+			"Id": "08a000012a6ijj8a",
+			"CurrencyIsoCode": "USD",
+			"Name": "Opportunity for Renner"
+		},
+		{
+			"AccountId": null,
+			"PrimaryQuoteId": {
+				"Id": "03a000012a6ijj5c",
+				"Name": "Quote for Fortuna"
+			},
+			"fpRules": {
+				"showMoreInfo": false,
+				"acl": {
+					"canEdit": true,
+					"canDelete": true
+				},
+				"wf": {
+					"canAddQuote": true
+				}
+			},
+			"Id": "08a000012a6ijj58",
+			"CurrencyIsoCode": "EUR",
+			"Name": "Opportunity for Fortuna"
+		},
+		{
+			"AccountId": {
+				"Id": "0ca000012a6ijivk",
+				"Name": "Gibson Inc"
+			},
+			"PrimaryQuoteId": {
+				"Id": "03a000012a6ijj2a",
+				"Name": "Quote for Gibson"
+			},
+			"fpRules": {
+				"showMoreInfo": false,
+				"acl": {
+					"canEdit": true,
+					"canDelete": true
+				},
+				"wf": {
+					"canAddQuote": true
+				}
+			},
+			"Id": "08a000012a6ijj26",
+			"CurrencyIsoCode": "USD",
+			"Name": "Opportunity for Gibson"
+		}
+	],
+	"done": true
+}

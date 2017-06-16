@@ -1,0 +1,7 @@
+<ion-list>
+    <ion-item *ngIf="actions.goToQuotes" (click)=doGoToQuotes()><span><ion-icon name="cloud-outline"></ion-icon></span> Go to Quotes</ion-item>
+    <ion-item *ngIf="actions.removeAllQuotes" (click)=doRemoveAllQuotes()><span><ion-icon name="cloud-outline"></ion-icon></span> Remove All Quotes</ion-item>
+    <ion-item *ngIf="actions.checkInAllQuotes" (click)=doCheckInAllQuotes()><span><ion-icon name="cloud-outline"></ion-icon></span> Check In All Quotes</ion-item>
+    <ion-item *ngIf="actions.downloadOpportunityOnly" (click)=doDownloadOpportunityOnly()><span><ion-icon name="cloud-outline"></ion-icon></span> Download Opportunity Only</ion-item>
+    <ion-item *ngIf="actions.checkOutAllQuotes" (click)=doCheckOutAllQuotes()><span><ion-icon name="cloud-outline"></ion-icon></span> Check Out All Quotes</ion-item>
+</ion-list>

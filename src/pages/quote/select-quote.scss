@@ -1,0 +1,46 @@
+select-quote {
+	.scroll-content {
+		overflow-y: hidden;
+	}
+
+	.title {
+		margin: 5px 0 !important;
+	}
+
+
+	.quote-item {
+		width:80%; 
+		float:left; 
+		line-height:1.2; 
+		padding: 8px 0; 
+		font-size: 12px;
+	}
+
+	.more-details{
+		width:20%; 
+		float:left; 
+		height: 55px; 
+		display: flex; 
+		justify-content: flex-end;
+		align-items: center;
+
+		ion-icon {
+			color: #ffce00;
+		}
+	}
+
+	 button {
+	 	background: transparent;
+	 }
+
+
+	 
+	 .popover:after {
+		  content: '\2807';
+		  font-size: 30px;
+		  color: #ffce00;
+	 }
+
+
+}
+

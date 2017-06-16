@@ -1,0 +1,66 @@
+.quote-details {
+
+	.ion-summary-title {
+		background-color: #ffce00; 	
+		padding: 8px 12px;
+	}
+
+	.ion-summary-item-title {
+	 	font-size:12px;
+		padding: 0px 12px;
+		margin: 0px 8px 0px 0
+	}
+
+	.ion-summary-item-desc {
+	 	font-size:10px;
+		padding: 0px 12px;
+		
+	}
+	.ion-summary-item-desc .label-ios {
+		margin: 0px 8px 15px 0;
+	}
+
+	.ion-summary-item-desc .item-inner {
+		border-bottom: none !important;
+	}
+	.item-block { 
+		min-height: 3rem !important;
+	}
+
+	.ion-summary-item-title .label-ios {
+		margin: 15px 8px 0px 0;
+	}
+
+	ion-label{
+		font-size: 14px;
+		color: #666;
+	}
+	ion-label > span{
+		font-size: 14px;
+		line-height: 22px;
+    	top: 2px !important;
+    	position: relative;
+    	color: #000;
+	}
+	input.text-input{
+		font-size: 14px;
+		line-height: 22px;
+    	top: 2px !important;
+    	position: relative;
+    	color: #000;
+   		background-color: #f3f3f3;
+   		padding: 4px;
+	}
+
+	.breadcrumbs{
+		margin: 12px;
+	}
+
+
+	.bar-button{
+
+		width: 22% !important;
+		height: 60px;
+
+	}
+}

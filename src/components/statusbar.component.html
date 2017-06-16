@@ -1,0 +1,13 @@
+
+<!-- for when inactive -->
+<ion-icon *ngIf="onlineStatus.onlineMode" name="cloud-outline"></ion-icon>
+<ion-icon *ngIf="!onlineStatus.onlineMode" name="link"></ion-icon>
+
+<ion-icon *ngIf="notifications.length > 0" name="notifications">
+  <span>{{notifications.length}}</span>
+</ion-icon>
+<ion-icon *ngIf="notifications.length === 0" name="notifications-outline"></ion-icon>
+
+<ion-icon *ngIf="myCPQDriveSummary.checkedOutQuotes > 0" name="folder">
+<span>{{myCPQDriveSummary.checkedOutQuotes}}</span></ion-icon>
+<ion-icon *ngIf="myCPQDriveSummary.checkedOutQuotes === 0"  name="folder-outline"></ion-icon>
